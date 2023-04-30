@@ -1,0 +1,195 @@
+.container {
+  margin: 0 auto;
+  max-width: 1110px;
+  padding: 2.1rem 0 4rem 0;
+}
+/* Se acomoda el nav para separar la imagen del botón free consultation*/
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.likedin {
+  color: #755CDE;
+}
+
+.nav button:nth-of-type(2), .about article button, .footer div button{
+  color: white;
+  height: 3rem;
+  font-size: 1rem;
+  padding: 0 2.9rem;
+  border-radius: 9999px;
+  letter-spacing: 0.03rem;
+  background-color: rgb(33, 186, 10);
+}
+
+.nav button:nth-of-type(2):hover{
+  background-color: #e1af19;
+}
+
+.hero {
+  text-align: center;
+  margin-top: 4.17rem;
+}
+
+.hero h2 {
+  font-size: 3.35rem;
+  letter-spacing: 0.08rem;
+}
+
+.hero p{
+  margin-top: 1.5rem;
+}
+
+.hero p, .about article p, .footer div article p{
+  color: #7A746E;
+  font-size: 1.15rem;
+  line-height: 1.75rem;
+}
+
+.hero div {
+  gap: 1.48rem;
+  display: grid;
+  margin-top: 5.1rem;
+  grid-template-areas:
+    "a b c d"
+    "a e e f";
+}
+
+.hero div svg:nth-child(1) {
+  grid-area: a;
+}
+
+.hero div svg:nth-child(2) {
+  grid-area: b;
+}
+
+.hero div svg:nth-child(3) {
+  grid-area: c;
+}
+
+.hero div svg:nth-child(4) {
+  grid-area: d;
+}
+
+.hero div svg:nth-child(5) {
+  grid-area: e;
+}
+
+.hero div svg:nth-child(6) {
+  grid-area: f;
+}
+
+.about {
+  width: 100%;
+  display: flex;
+  min-width: 1110px;
+  align-items: center;
+  margin-top: 8.53rem;
+  justify-content: space-between;
+}
+
+.about article {
+  margin-right: 0.57rem;
+}
+
+.about article h2, .footer div article h2 {
+  font-size: 2.35rem;
+  letter-spacing: 0.08rem;
+}
+
+.about article p {
+  font: bold;
+  margin-top: 3.3rem;
+  margin-bottom: 2rem;
+}
+
+.work {
+  margin-top: 5.3rem;
+}
+
+.work h2 {
+  font-size: 2rem;
+  text-align: center;
+}
+
+.work div:nth-of-type(1) {
+  cursor: grab;
+  display: flex;
+  width: 2827px;
+  left: -53.45rem;
+  position: relative;
+  margin-top: 3.5rem;
+}
+
+.work div:nth-of-type(1) figure {
+  width: 540px;
+  margin: 0 0.94rem;
+  pointer-events: none;
+}
+
+.work div:nth-of-type(1) figure:nth-of-type(1) {
+  margin-left: 0;
+}
+
+.work div:nth-of-type(1) figure:nth-of-type(5) {
+  margin-right: 0;
+}
+
+.work div:nth-of-type(2) {
+  display: flex;
+  margin-top: 3.45rem;
+  justify-content: center;
+}
+
+.work div:nth-of-type(2) button {
+  width: 64px;
+  height: 64px;
+  display: flex;
+  margin: 0 0.5rem;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+}
+
+.work div:nth-of-type(2) button:hover {
+  background-color: #e1af19;
+}
+
+.footer div {
+  display: flex;
+  min-width: 1110px;
+  margin-top: 5.5rem;
+  align-items: center;
+  border-radius: 10px;
+  padding: 5.2rem 4.07rem;
+  background-color: black;
+  justify-content: space-between;
+}
+
+.footer div article {
+  color: white;
+}
+
+.footer div article p {
+  color: white;
+  margin-top: 1.5rem;
+}
+
+.footer div button {
+  margin-right: 1.9rem;
+}
+
+.footer button:hover{
+  background-color: #e1af19;
+}
+
+.footer button{
+  font: bold;
+}
+
+.footer nav {
+  margin-top: 3.5rem;
+}
