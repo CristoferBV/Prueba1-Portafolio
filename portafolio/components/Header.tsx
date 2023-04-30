@@ -8,7 +8,7 @@ const Header = () => {
     <nav className={styles.nav}>
         <button
         type='button'>
-            <Image src={Logo} alt="Imagen Portafolio" />
+            <Image src={Logo} alt="Imagen Portafolio" width={60} height={60}/>
 
         </button>
 

@@ -4,11 +4,11 @@ import { motion } from "framer-motion";
 import styles from "../styles/Home.module.css";
 import Image from "next/image";
 import { useState, useEffect } from "react";
-import axios from "axios";
-import One from "../public/img/1.png";
-import Two from "../public/img/2.png";
-import Three from "../public/img/3.png";
-import Four from "../public/img/4.png";
+//import axios from "axios";
+import One from "../public/img/1.jpg";
+import Two from "../public/img/2.jpg";
+import Three from "../public/img/3.jpg";
+import Four from "../public/img/4.jpg";
 
 const Work = () => {
   const [x, setX] = useState(0);
@@ -58,16 +58,16 @@ const Work = () => {
             dragConstraints={{ left: -855.2, right: 855.2 }}
           >
             <figure>
-              <Image src={One} alt="" placeholder="blur" />
+              <Image src={One} alt="" placeholder="blur" width={540} height={360}/>
             </figure>
             <figure>
-              <Image src={Two} alt="" placeholder="blur" />
+              <Image src={Two} alt="" placeholder="blur" width={540} height={360}/>
             </figure>
             <figure>
-              <Image src={Three} alt="" placeholder="blur" />
+              <Image src={Three} alt="" placeholder="blur" width={540} height={360}/>
             </figure>
             <figure>
-              <Image src={Four} alt="" placeholder="blur" />
+              <Image src={Four} alt="" placeholder="blur" width={540} height={360}/>
             </figure>
           </motion.div>
           <div>

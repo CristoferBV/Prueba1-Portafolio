@@ -8,7 +8,7 @@ const Footer = () => {
     <footer className={styles.footer}>
         <div>
           <article>
-            <h2>Call with me</h2>
+            <h2 className={styles.call}>Call to Action</h2>
             <p className={styles.desktop}>
              I had like to have a chat to see how I can help. he first thing
               <br/>
